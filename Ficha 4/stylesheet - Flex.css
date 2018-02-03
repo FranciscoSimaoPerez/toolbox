@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    color: white;
+    display: flex;
+}
+
+nav{
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #640101;
+    width:500px;
+}
+
+section{
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.sec1{
+    background-color: #9b7702;
+}
+.sec2{
+    background-color: #02639b;
+}
+.sec3{
+    background-color: #460e01;
+}
+
+body{
+    background-color: #a33838
+}
+
+footer{
+    background-color: #333333;
+    align-self: flex-end;  
+}
+
+divSec{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
